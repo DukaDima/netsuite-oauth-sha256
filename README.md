@@ -1,12 +1,12 @@
 # netsuite-oauth-sha256
-# netsuite-oauth-sha256
+
 This auxiliary module abstracts the authentication mechanism used by NetSuite Restlets.
 
 Example of GET request
 
-const NetSuiteOauth = require('netsuite-tba-oauth');
+const NetSuiteOauth = require('netsuite-oauth-sha256');
  
-const url = 'restlet-url';
+const url = 'your-restlet-url';
 const method = 'GET';
 const consumerKey = 'your-consumer-key';
 const consumerSecret = 'your-consumer-secret';
@@ -19,12 +19,11 @@ const oauth = new NetSuiteOauth(url, method, consumerKey, consumerSecret, tokenI
 oauth.get().then(response => console.log(response));
 
 
-
 Example of POST request
 
-const NetSuiteOauth = require('netsuite-tba-oauth');
+const NetSuiteOauth = require('netsuite-oauth-sha256');
  
-const url = 'restlet-url';
+const url = 'your-restlet-url';
 const method = 'POST';
 const consumerKey = 'your-consumer-key';
 const consumerSecret = 'your-consumer-secret';
