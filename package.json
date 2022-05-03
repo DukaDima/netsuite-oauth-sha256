@@ -1,0 +1,31 @@
+{
+  "name": "netsuite-oauth-sha256",
+  "version": "1.0.0",
+  "description": "created get, post and put request with sha256 signature method",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myname/mypackage.git"
+  },
+  
+  "keywords": [
+    "sha256",
+    "oauth",
+    "netsuite",
+    "restlet"
+  ],
+  "author": "dima-duka",
+  "bugs": {
+    "url": "https://github.com/DukaDima/netsuite-oauth-sha256/issues"
+  },
+  "homepage": "https://github.com/DukaDima/netsuite-oauth-sha256#readme",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "oauth-1.0a": "^2.2.6",
+    "request": "^2.88.2"
+  }
+}
